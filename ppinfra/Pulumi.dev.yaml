@@ -1,0 +1,6 @@
+config:
+  aws:region: ca-central-1
+  khanam_pulumi_aws:errorDocument: error.html
+  khanam_pulumi_aws:indexDocument: index.html
+  khanam_pulumi_aws:path: ./www
+  pulumi:template: static-website-aws-typescript
